@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>ЕТ "777 Яна Иванова"</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="pyramid.svg.png">
+        <link href="main.css" rel="stylesheet">
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(42.751336, 23.499321),
+          zoom: 15,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>
+            <img class="logo" src="pyramid.svg.png" alt="logo"/>
+            ЕТ "777 Яна Иванова"</h1>
+        <nav>
+        <ul>
+            <li> <a href="index.html"> За нас </a></li>
+            <li> <a href="service.html"> Услуги </a></li>
+            <li> <a href="contacts.html"> Контакти </a></li>
+        </ul>
+        </nav>
+        <span>
+         <a href="index.html"> За нас</a> / Контакти
+        </span>
+        <p class="contakts">
+            Моб.тел.: 089 98 09 662<br>
+            Моб.тел.: 089 44 93 892<br>
+            e-mail: yanabogdanova@abv.bg<br>
+            София, кв. Ботунец<br>
+            на територията на МЕТАЛ СНАБ
+        </p>
+        <div id="map-canvas"></div>
+     </body>
+     <footer>
+         <hr>
+         &copy ЕТ "777 - Яна Иванова" 2000 - 2015
+     </footer>
+</html>

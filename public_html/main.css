@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19.05.2015, 14:29:12
+    Author     : dobipesheva
+*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 18px;
+    background-color: #FFFFCC;
+    background-image: url(layer.png);
+    color: #980000;
+} 
+h1 {
+    font-size: 21px;
+    text-decoration: none;
+    margin-left: 881px;
+}
+nav > ul > li {
+    display: inline-block;
+    text-shadow: 2px;
+    box-sizing: content-box;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 6px;
+    padding-left: 250px;
+    padding-top: 35px;
+    }
+a {
+    text-decoration: none;
+    color: #980000;
+}
+span {
+    font-size: 12px;
+    margin-left: 155px;
+}
+#map-canvas {
+        width: 850px;
+        height: 250px;
+        margin-left: 250px;
+        margin-top: 65px;
+        border-radius: 20px 20px 20px 20px;
+}
+.contakts {
+        margin-left: 220px;
+        margin-top: 65px;
+}
+.serv , .documents , .licence , h2{
+        margin-left: 220px;
+        margin-top: 65px;
+}
+footer {
+        color: #980000;
+        font-size: 12px;
+        margin-left: 128px;
+        margin-top: 35px;
+}
+.logo {
+        margin-left: 0px;
+        margin-top: 5px;
+        width: 30px;
+        height: 25px;
+}
+.info {
+    width: 780px;
+    height: auto;
+    padding-left: 236px; 
+    padding-top: 40px;
+}
